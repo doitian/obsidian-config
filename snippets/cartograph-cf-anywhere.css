@@ -1,0 +1,12 @@
+:root {
+  --default-font: 'Cartograph CF', 'Victor Mono Medium', monospace;
+  --font-monospace: 'Cartograph CF', 'Victor Mono Medium', monospace;
+}
+
+.cm-meta, .cm-hmd-frontmatter, .tag, .image-embed[alt]:after {
+  font-style: italic;
+}
+.cm-meta.cm-formatting-task {
+  font-style: normal;
+}
+

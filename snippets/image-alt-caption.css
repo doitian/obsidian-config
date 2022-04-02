@@ -1,0 +1,9 @@
+.image-embed[alt]:not([alt$=".png"]):not([alt$=".jpg"]):not([alt$="gif"]):after {
+  content: attr(alt);
+  display: block;
+  margin: 0.2rem 1rem 1rem 1rem;
+  text-align: center;
+  font-size: 90%;
+  line-height: 1.4;
+  color: var(--text-faint);
+}

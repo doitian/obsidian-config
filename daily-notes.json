@@ -1,0 +1,6 @@
+{
+  "folder": "periodic",
+  "format": "YYYY-MM-DD",
+  "template": "blocks/tpl-daily-new",
+  "autorun": false
+}

@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "path:(-\"4 Archive/\")",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#now",
+      "color": {
+        "a": 1,
+        "rgb": 16405816
+      }
+    },
+    {
+      "query": "tag:#zettel/fleeting",
+      "color": {
+        "a": 1,
+        "rgb": 16643267
+      }
+    },
+    {
+      "query": "tag:#zettel/literature",
+      "color": {
+        "a": 1,
+        "rgb": 12188216
+      }
+    },
+    {
+      "query": "tag:#zettel/permanent OR path:\"♯ \"",
+      "color": {
+        "a": 1,
+        "rgb": 3697146
+      }
+    },
+    {
+      "query": "tag:#zettel/index OR tag:#zettel/keyword",
+      "color": {
+        "a": 1,
+        "rgb": 12597498
+      }
+    },
+    {
+      "query": "tag:#journal",
+      "color": {
+        "a": 1,
+        "rgb": 15138302
+      }
+    },
+    {
+      "query": "path:\"\"",
+      "color": {
+        "a": 1,
+        "rgb": 10066329
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.1993896484375,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.12048677024142979,
+  "close": false
+}

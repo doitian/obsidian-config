@@ -1,0 +1,23 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "format": "YYYY-MM-DD",
+    "folder": "periodic",
+    "template": "blocks/tpl-daily-new.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "blocks/tpl-weekly-new.md",
+    "folder": "periodic",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "blocks/tpl-monthly-new.md",
+    "folder": "periodic",
+    "enabled": true
+  }
+}
