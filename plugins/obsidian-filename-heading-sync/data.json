@@ -1,6 +1,6 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "^(blocks|publish)/",
+  "ignoreRegex": "^(blocks|publish|periodic)/",
   "useFileOpenHook": true
 }
