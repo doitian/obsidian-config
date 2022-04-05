@@ -29,7 +29,7 @@
       }
     },
     {
-      "query": "tag:#zettel/permanent OR path:\"♯ \"",
+      "query": "tag:#zettel/permanent OR path:(\"publish/\" \"♯ \")",
       "color": {
         "a": 1,
         "rgb": 3697146
