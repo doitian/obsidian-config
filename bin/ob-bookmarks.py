@@ -11,6 +11,7 @@ import filecmp
 
 BOOKMARKLET_PREFIX = 'javascript:'
 BOOKMARKLET_PREFIX_LEN = len(BOOKMARKLET_PREFIX)
+DATA_URL_PREFIX = 'data:'
 FOLDER_COMMENT_PREFIX = 'chrome://bookmarks/?id='
 
 def export_bookmarks_folder(dir, folder):
@@ -39,6 +40,13 @@ def export_bookmarks_folder(dir, folder):
                         {}
                             ```
                     ''').format(child_name, sha, textwrap.indent(url[BOOKMARKLET_PREFIX_LEN:], '    ')), file=md_file)
+                elif url.startswith(DATA_URL_PREFIX):
+                    print(textwrap.dedent('''\
+                        - {} #bookmarklet ^{}
+                            ```
+                        {}
+                            ```
+                    ''').format(child_name, sha, textwrap.indent(url, '    ')), file=md_file)
                 elif url.startswith(FOLDER_COMMENT_PREFIX):
                     print(child_name, file=md_file)
                     print('', file=md_file)
